@@ -14,6 +14,7 @@ function DownloadButtons() {
                 <button className='download-links' type='button'>  Download for Android <ShopIcon /></button>
             </a>
         </div>
+
     );
 }
 export default DownloadButtons;
