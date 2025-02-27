@@ -6,12 +6,12 @@ function DownloadButtons() {
     return (
         <div className="download-buttons">
             <a href="https://www.example.com" download>
-                <button>
+                <button className='download-links' type='button'>
 
                     Download for iOS <AppleIcon /></button>
             </a>
             <a href="https://www.example.com" download>
-                <button>  Download for Android <ShopIcon /></button>
+                <button className='download-links' type='button'>  Download for Android <ShopIcon /></button>
             </a>
         </div>
     );

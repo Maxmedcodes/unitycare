@@ -126,7 +126,7 @@ nav ul li {
 .about-us {
   border: 2px solid red;
   display: flex;
-  height: 500px;
+  height: 900px;
   width: 100%;
   margin: 10px;
 }
@@ -145,8 +145,15 @@ nav ul li {
   height: auto;
   width: 50%;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin: 10px;
 
+
+}
+
+.about-us-images img {
+  border-radius: 25px;
 }
 
 .about-us-header h1 {
@@ -162,6 +169,19 @@ nav ul li {
   margin: 10px 0;
 }
 
+.about-us-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-header h1 {
+  height: 169px;
+  width: 370px;
+  color: #06083c;
+  font-family: moder;
+}
+
 .about-us-text p {
   margin: 10px 0;
 }
@@ -173,15 +193,20 @@ nav ul li {
   color: #69f1ff;
   font-weight: 700;
   font-size: 15px;
-  padding: 12px;
+  padding: 9px;
   border-radius: 25px;
-  margin: 20px 15px;
+  margin: 20px 5px;
   text-align: center;
 }
 
 .download-buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.download-links {
+  display: flex;
   align-items: center;
 }
 

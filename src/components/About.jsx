@@ -12,12 +12,22 @@ function Body_About() {
                         <h1>We are United.</h1>
                     </div>
                     <div className="about-us-text">
-                        <h3>What is UnityCare ?</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum tempora mollitia quidem, aut iusto quaerat. Officia quo laborum laudantium perspiciatis!</p>
+                        <div className="about-us-text-1">
+                            <h3>What is UnityCare ?</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum tempora mollitia quidem, aut iusto quaerat. Officia quo laborum laudantium perspiciatis!</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates totam nesciunt! Corporis cum consequuntur, facere mollitia doloribus non quibusdam neque exercitationem in temporibus, porro sit assumenda quas maiores, rem tenetur eaque similique error ducimus! Itaque nobis saepe, voluptates odit at quia ipsum vitae molestias pariatur dolor commodi repellendus! Eaque.</p>
+                        </div>
+                        <div className="about-us-text-2">
+                            <h3>Our Mission</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates totam nesciunt! Corporis cum consequuntur, facere mollitia doloribus non quibusdam neque exercitationem in temporibus, porro sit assumenda quas maiores, rem tenetur eaque similique error ducimus! Itaque nobis saepe, voluptates odit at quia ipsum vitae molestias pariatur dolor commodi repellendus! Eaque.</p>
 
-                        <DownloadButtons />
+                        </div>
+
+                        <div className="about-us-text-3">
+                            <DownloadButtons />
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -25,17 +35,10 @@ function Body_About() {
 
 
                     <div className="about-us-image1">
-                        <img src="src\assets\images\image5.jpg" alt="" height={"100px"} width={"100px"} />
+                        <img src="src\assets\images\MainImage.png" alt="Multiple Images of People in a health setting" height={"500px"} width={"100%"} />
 
                     </div>
-                    <div className="about-us-image2">
-                        <img src="src\assets\images\image5.jpg" alt="" height={"100px"} width={"100px"} />
 
-                    </div>
-                    <div className="about-us-image3">
-                        <img src="src\assets\images\image5.jpg" alt="" height={"100px"} width={"100px"} />
-
-                    </div>
 
 
                 </div>
