@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -158,6 +160,10 @@ nav ul li {
 
 .about-us-header h1 {
   font-size: 55px;
+  font-family: "Braah One", cursive;
+  height: 169px;
+  width: 370px;
+  color: #06083c;
 }
 
 .about-us-text {
@@ -175,12 +181,7 @@ nav ul li {
   align-items: center;
 }
 
-.about-us-header h1 {
-  height: 169px;
-  width: 370px;
-  color: #06083c;
-  font-family: moder;
-}
+
 
 .about-us-text p {
   margin: 10px 0;
