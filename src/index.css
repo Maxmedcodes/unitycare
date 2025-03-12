@@ -2,10 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Colours used */
+random {
+  darkened-blue: #06083c;
+  ligh-blue: #69f1ff;
+  dark-blue: #1140c0;
+  white: #f0f3f4
+}
+
 * {
   margin: 0;
   padding: 0;
-
+  text-decoration: none;
 }
 
 body {
@@ -20,6 +28,8 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 20px 20px;
+  position: sticky;
+  top: 15px;
 }
 
 .logo-header {
@@ -122,13 +132,14 @@ nav ul li {
   display: flex;
   text-align: center;
   margin: 10px 25px;
+  height: auto;
 
 }
 
 .about-us {
   border: 2px solid red;
   display: flex;
-  height: 900px;
+  height: 1100px;
   width: 100%;
   margin: 10px;
 }
@@ -159,11 +170,13 @@ nav ul li {
 }
 
 .about-us-header h1 {
-  font-size: 55px;
+  font-size: 95px;
   font-family: "Braah One", cursive;
-  height: 169px;
-  width: 370px;
+  height: auto;
+  width: auto;
   color: #06083c;
+
+  text-align: center;
 }
 
 .about-us-text {
@@ -179,6 +192,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -187,17 +201,41 @@ nav ul li {
   margin: 10px 0;
 }
 
+/* About us Images */
+
+.about-us-image1 {
+  position: relative;
+  top: -110px;
+  z-index: -1;
+  rotate: 10deg;
+}
+
+.about-us-image2 {
+  position: relative;
+  top: -290px;
+  z-index: -2;
+  rotate: 10deg;
+}
+
+.about-us-image3 {
+  position: relative;
+  top: -490px;
+  z-index: -1;
+  rotate: 5deg;
+}
+
 
 /* Download buttons */
 .download-buttons button {
-  background-color: #1140c0;
-  color: #69f1ff;
-  font-weight: 700;
+  background-color: #69f1ff;
+  color: #1140c0;
+  font-weight: 300;
   font-size: 15px;
   padding: 9px;
   border-radius: 25px;
   margin: 20px 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .download-buttons {
@@ -209,6 +247,22 @@ nav ul li {
 .download-links {
   display: flex;
   align-items: center;
+}
+
+/* Care Section */
+.app-benefits {
+  width: auto;
+  height: 900px;
+  margin: 0 20px;
+  background-color: #06083c;
+}
+
+.app-benefits-content {
+  display: flex;
+
+  border: solid 1px red;
+  margin: 30px 10px;
+  height: 500px;
 }
 
 /* Footer section */

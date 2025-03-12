@@ -9,7 +9,8 @@ function Body_About() {
             <section className="about-us">
                 <div className="about-us-content">
                     <div className="about-us-header">
-                        <h1>We are United.</h1>
+                        <h1>No One </h1>
+                        <h1>Heals Alone</h1>
                     </div>
                     <div className="about-us-text">
                         <div className="about-us-text-1">
@@ -34,10 +35,22 @@ function Body_About() {
                 <div className="about-us-images">
 
 
-                    <div className="about-us-image1">
-                        <img src="src\assets\images\MainImage.png" alt="Multiple Images of People in a health setting" height={"500px"} width={"100%"} />
+                    {/* <div className="about-us-image1">
+                        <img src="src\assets\images\MainImage.png" alt="Multiple Images of People in a health setting" height={"800px"} width={"100%"} />
 
+                    </div> */}
+
+                    <div className="about-us-image1">
+                        <img src="src\assets\images\image1.jpg" alt="" height={"500px"} width={"65%"} />
                     </div>
+                    <div className="about-us-image2">
+                        <img src="src\assets\images\image9.jpg" alt="" height={"500px"} width={"65%"} />
+                    </div>
+                    <div className="about-us-image3">
+                        <img src="src\assets\images\image7.jpg" alt="" height={"500px"} width={"65%"} />
+                    </div>
+
+
 
 
 
