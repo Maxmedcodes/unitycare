@@ -252,8 +252,10 @@ nav ul li {
 /* Care Section */
 .app-benefits {
   width: auto;
-  height: 900px;
-  margin: 0 20px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+
   background-color: #06083c;
 }
 
@@ -262,7 +264,53 @@ nav ul li {
 
   border: solid 1px red;
   margin: 30px 10px;
-  height: 500px;
+  height: 2500px;
+}
+
+.app-benefits-1 {
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px green;
+  margin: 10px;
+}
+
+.bensec-1 {
+  height: 50%;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+}
+
+.bensec-2 {
+  height: 50%;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+}
+
+.app-benefits-2 {
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px green;
+  margin: 10px;
+}
+
+.bensec2-1 {
+  height: 50%;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+}
+
+.bensec2-2 {
+  height: 50%;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
 }
 
 /* Footer section */
