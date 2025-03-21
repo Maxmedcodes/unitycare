@@ -255,6 +255,7 @@ nav ul li {
   height: 1000px;
   display: flex;
   flex-direction: column;
+  color: #69f1ff;
 
   background-color: #06083c;
 }
@@ -267,6 +268,10 @@ nav ul li {
   height: 2500px;
 }
 
+.benefits-images {
+  margin: 35px 5px 15px 5px;
+}
+
 .app-benefits-1 {
 
   width: 50%;
@@ -277,17 +282,24 @@ nav ul li {
 }
 
 .bensec-1 {
-  height: 50%;
+  height: 100%;
   border: 1px solid black;
   margin: 5px;
   text-align: center;
+  color: #69f1ff;
+  display: flex;
+  flex-direction: column;
 }
 
-.bensec-2 {
-  height: 50%;
-  border: 1px solid black;
-  margin: 5px;
-  text-align: center;
+.bensec-1 h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.bensec-1 p {
+  margin: 90px 20px;
+  text-align: left;
+  font-size: larger;
 }
 
 .app-benefits-2 {
@@ -300,17 +312,65 @@ nav ul li {
 }
 
 .bensec2-1 {
-  height: 50%;
+
   border: 1px solid black;
   margin: 5px;
   text-align: center;
+  width: 50%;
+
+}
+
+.bensec2-1 h1 {
+  margin: 10px;
 }
 
 .bensec2-2 {
-  height: 50%;
+
   border: 1px solid black;
   margin: 5px;
   text-align: center;
+  width: 50%;
+
+}
+
+.bensec2-2 h1 {
+  margin: 10px;
+}
+
+.benefits-one {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  justify-content: space-evenly;
+}
+
+.benefits-two {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.bensec2-3 {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+.bensec2-3 h1 {
+  margin: 10px;
+}
+
+.bensec2-4 {
+  border: 1px solid black;
+  margin: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+.bensec2-4 h1 {
+  margin: 10px;
 }
 
 /* Footer section */
