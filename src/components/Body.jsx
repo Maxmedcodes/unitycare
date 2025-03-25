@@ -1,6 +1,7 @@
 import React from "react";
 import Body_About from "./About";
 import Care from "./Care";
+import Download from "./Download";
 
 function Body() {
 
@@ -11,6 +12,7 @@ function Body() {
 
             <Body_About />
             <Care />
+            <Download />
 
 
 

@@ -1,11 +1,11 @@
 import React from "react";
+import Logo from "./Logo";
 
 function Header() {
     return (
         <header>
-            <div className="logo-header">
-                <h1>UnityCare</h1>
-            </div>
+            <Logo />
+
             <div className="navbar">
 
 

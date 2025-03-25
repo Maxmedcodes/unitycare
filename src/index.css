@@ -373,24 +373,137 @@ nav ul li {
   margin: 10px;
 }
 
+/* Download Section  */
+
+.download-install {
+  height: 1000px;
+  background-color: #FBE4D6;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+.download-section1 {
+  height: 50%;
+  border: 2px solid black;
+}
+
+.ds1-left {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.ds1-left-store {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
 /* Footer section */
 
 .footer {
-  background-color: red;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  height: 350px;
+}
+
+.footer-content {
+  display: flex;
+  margin: 20px 15px 20px 15px;
+  height: 250px;
+}
+
+.right-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 40px 10px 10px;
+}
+
+.right-one>ul>li {
+  margin: 10px 0px;
+
+}
+
+.right-one {
+  text-align: left;
+}
+
+.right-one>ul {
+  list-style: none;
+
+}
+
+.right-two>ul>li {
+  margin: 10px 0px;
+
+
+}
+
+.right-two>ul {
+  list-style: none;
+}
+
+.right-three>ul>li {
+  margin: 10px 0px;
+
+}
+
+.right-three>ul {
+  list-style: none;
+}
+
+.right-four>ul {
+  list-style: none;
+}
+
+.right-four>ul>li {
+  margin: 10px 0px;
+
+
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.left-content>.social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links>svg {
+  margin-right: 20px;
+}
+
+.left-content>p {
+  margin: 10px 90px 10px 20px;
+
+  font-family: verdana;
+}
+
+.left-content>* {
+  margin: 10px;
 }
 
 .footer-tos {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
 }
 
 .footer-tos p {
   margin: 0 10px;
-}
-
-.footer-social {
-  background-color: green;
 }
