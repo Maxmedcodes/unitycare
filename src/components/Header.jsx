@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import { Link, Navigate as naviagte } from "react-router-dom";
 
 function Header() {
     return (
@@ -12,10 +13,11 @@ function Header() {
                 <div className="nav-header">
                     <nav>
                         <ul>
-                            <li>About us</li>
-                            <li>Benefits</li>
-                            <li>Volunteer</li>
-                            <li>Support Us</li>
+                            <li > <Link to={"/about-us"}>About us</Link></li>
+                            <li> <Link to={"/benefits"}>Benefits</Link></li>
+                            <li> <Link to={"/volunteer"}>Volunteer</Link></li>
+                            <li> <Link to={"/support-us"}>Support Us</Link></li>
+
                         </ul>
 
                     </nav>
