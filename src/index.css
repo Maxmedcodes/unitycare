@@ -375,6 +375,10 @@ nav ul li {
   margin: 10px;
 }
 
+a:visited {
+  color: #1140c0;
+}
+
 /* Download Section  */
 
 .download-install {
@@ -516,6 +520,7 @@ nav ul li {
   font-size: 40px;
   color: #06083c;
   margin: 10px 0px;
+  text-decoration: underline;
 }
 
 .aboutus-content>div>h3 {
@@ -524,6 +529,7 @@ nav ul li {
   font-size: 40px;
   color: #06083c;
   margin: 10px 0px;
+  text-decoration: underline;
 }
 
 .aboutus-content>div>p {
@@ -532,12 +538,51 @@ nav ul li {
   font-size: 20px;
   color: #06083c;
   margin: 10px 0px;
+
+}
+
+.about-2-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 50px;
+  color: #06083c;
+}
+
+.about-3-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 50px;
+  color: #06083c;
+}
+
+.about-4-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 50px;
+  color: #06083c;
 }
 
 /* Benfits Page */
+.benefits-page {
+  height: fit-content;
+  background-color: #FBE4D6;
+}
+
 /* Download Page */
 /* Support US PAge */
+.support-page {
+  height: fit-content;
+  background-color: #FBE4D6;
+}
+
 /* Volunteer PAge */
+.volunteer-page {
+  height: fit-content;
+  background-color: #FBE4D6;
+}
 
 /* Footer section */
 
