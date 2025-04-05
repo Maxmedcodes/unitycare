@@ -7,9 +7,9 @@ export default function Download() {
     const APKUrl = "https://play.google.com/store/apps/details?id=host";
     const IOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
     return (
-        <section className="download-install">
+        <section className="download-install" id='app-download'>
 
-            <div className="download-section1">
+            <div className="download-section1" >
                 <div className="ds1-left">
                     <div className="download-header">
                         <h1>Download Our New App</h1>

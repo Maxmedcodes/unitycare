@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "./Logo";
 import { Link, Navigate as naviagte } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { slide as Menu } from 'react-burger-menu'
 
 function Header() {
     return (
@@ -23,15 +25,20 @@ function Header() {
                     </nav>
                 </div>
                 <div className="navbar-download">
-                    <ul className="nav-download">
-                        <li>Download</li>
-                    </ul>
+
+                    <HashLink smooth to={"/#app-download"} className="nav-download">
+                        Download
+                    </HashLink>
+                    {/* <li>Download</li> */}
+
                 </div>
+
                 <div className="hamburger-menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+
             </div>
 
         </header>

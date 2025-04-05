@@ -15,12 +15,12 @@ function Body_About() {
                     <div className="about-us-text">
                         <div className="about-us-text-1">
                             <h3>What is UnityCare ?</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum tempora mollitia quidem, aut iusto quaerat. Officia quo laborum laudantium perspiciatis!</p>
+                            <p>Unity Care connects volunteers with patients who need companionship during hospital stays. Founded on the belief that human connection is essential to healing, our platform makes it easy for family members, friends, or healthcare professionals to request compassionate visitors for patients experiencing isolation. Our community of volunteers brings comfort, conversation, and care to those who need it most.</p>
 
                         </div>
                         <div className="about-us-text-2">
                             <h3>Our Mission</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptates totam nesciunt! Corporis cum consequuntur, facere mollitia doloribus non quibusdam neque exercitationem in temporibus, porro sit assumenda quas maiores, rem tenetur eaque similique error ducimus! Itaque nobis saepe, voluptates odit at quia ipsum vitae molestias pariatur dolor commodi repellendus! Eaque.</p>
+                            <p>Unity Care bridges the gap between isolated hospital patients and compassionate volunteers. We believe in the healing power of human connection and work to ensure no one faces illness alone. Our platform creates meaningful interactions that benefit patients' emotional wellbeing while providing fulfilling volunteer opportunities.</p>
 
                         </div>
 

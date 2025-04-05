@@ -10,6 +10,8 @@ import Benefits from './Pages/Benefits'
 import SupportUs from './Pages/SupportUs'
 import Volunteer from './Pages/Volunteer'
 import DownloadPage from './Pages/DownloadPage'
+import HamburgerPage from './Pages/HamburgerPage'
+import ErrorPage from './Pages/ErrorPage'
 
 function App() {
   return (
@@ -18,11 +20,13 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
+            <Route path="*" element={<ErrorPage />} />
             <Route path="/" element={<Body />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/benefits" element={<Benefits />} />
             <Route path="/support-us" element={<SupportUs />} />
             <Route path="/volunteer" element={<Volunteer />} />
+            <Route path='/hamburger' element={<HamburgerPage />} />
             <Route path="/download" element={<DownloadPage />} />
           </Routes>
         </div>

@@ -74,13 +74,23 @@ header {
 
 }
 
+
+
 .nav-download {
   list-style: none;
   background-color: #1140c0;
   padding: 15px;
   border-radius: 25px;
-  color: #69f1ff;
+
   font-weight: 900;
+}
+
+.nav-download:visited {
+  color: #69f1ff;
+}
+
+.nav-download>a:visited {
+  color: #69f1ff;
 }
 
 .nav-header {
@@ -200,10 +210,17 @@ nav ul li {
 
 
 .about-us-text p {
-  margin: 10px 0;
+  margin: 10px 30px;
 }
 
 /* About us Images */
+
+.about-us-image1 {
+  position: relative;
+  top: -110px;
+  z-index: -1;
+  rotate: 10deg;
+}
 
 .about-us-image1 {
   position: relative;
@@ -658,7 +675,7 @@ a:visited {
 
 .left-content>.social-links {
   display: flex;
-  justify-content: space-between;
+
 }
 
 .social-links>svg {
@@ -680,9 +697,97 @@ a:visited {
   flex-direction: row;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 .footer-tos p {
   margin: 0 10px;
+}
+
+/* 404Error Page */
+.error-lottie {
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Media Queries */
+
+/* MediaQuery - Iphone X and above */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1060px) {
+
+
+
+  .nav-header {
+    display: none;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 97%;
+  }
+
+  .about-us-content {
+    width: 100%;
+  }
+
+  .about-us-images {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about-us-images img {
+    width: 40%;
+    height: 100%;
+  }
+
+  /* images */
+  .about-us-image1 {
+    width: 1300px;
+    height: 500px;
+    top: 0px;
+    z-index: none;
+    rotate: 0deg;
+
+  }
+
+  .about-us-image2 {
+    width: 1300px;
+    height: 500px;
+    top: 0px;
+    z-index: null;
+    rotate: 0deg;
+    margin: 20px 0px;
+
+  }
+
+  .about-us-image3 {
+    width: 1300px;
+    height: 500px;
+    top: 0px;
+    z-index: null;
+    rotate: 0deg;
+    margin: 20px 0px 40px 0px;
+
+  }
+
+  .about-us-text p {
+    margin: 10px 40px;
+    text-align: left;
+  }
+
+  .app-benefits {
+    height: auto;
+  }
+
+  .app-benefits-content {
+    height: auto;
+  }
+
+
+
 }
