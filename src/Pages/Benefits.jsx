@@ -12,12 +12,12 @@ function Benefits() {
                     <div className="aboutus-para">
                         <h2>Unity Care</h2>
 
-                        <p>We believe in the healing power of human connection</p>
+                        <p>Presence is a Gift</p>
 
                     </div>
 
                     <div className="about-1">
-                        <h3>For Patients</h3>
+                        <h3 id='for-patients'>For Patients</h3>
                         <p>
                             Hospital stays are often characterized by unfamiliar environments, disrupted routines, and physical discomfort. Beyond the medical challenges, many patients face a profound sense of isolation that can significantly impact their healing journey. Unity Care volunteers help address this critical gap in patient care through regular, meaningful human connection                        </p>
                         <p>
@@ -41,7 +41,7 @@ function Benefits() {
                     </div>
 
                     <div className="about-2">
-                        <h3>For Families</h3>
+                        <h3 id='for-families'>For Families</h3>
                         <p> The burden of having a loved one hospitalized extends far beyond the patient's experience. Families often find themselves torn between providing support at the bedside and meeting their existing responsibilities at work, home, and to other family members. This impossible balancing act frequently leads to caregiver burnout, guilt, and financial strain—issues that Unity Care helps alleviate through our volunteer companionship program.</p>
                         <p>
                             A nationwide survey conducted by the Family Caregiver Alliance found that 68% of primary family caregivers report significant anxiety when unable to visit hospitalized loved ones regularly, with 73% experiencing disrupted sleep and 42% reporting decreased productivity at work. The economic impact is substantial: the average family loses approximately $3,200 in income due to missed work when supporting a hospitalized family member for an extended period.
@@ -66,7 +66,7 @@ function Benefits() {
 
 
                     <div className="about-3">
-                        <h3> For HealthCare Organisations</h3>
+                        <h3 id='for-healthcare-organisations'> For HealthCare Organisations</h3>
                         <p>
                             In today's healthcare landscape, patient satisfaction and holistic care approaches are increasingly recognized as essential components of quality healthcare delivery. Unity Care offers healthcare organizations a turnkey solution to enhance patient experience while addressing staffing challenges and improving key performance metrics that impact both reimbursement and reputation.
                         </p>

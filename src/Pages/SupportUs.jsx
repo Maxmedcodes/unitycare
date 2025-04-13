@@ -12,12 +12,12 @@ function SupportUs() {
                     <div className="aboutus-para">
                         <h2>Unity Care</h2>
 
-                        <p>We believe in the healing power of human connection</p>
+                        <p>Bridging Isolation with Compassion</p>
 
                     </div>
 
                     <div className="about-1">
-                        <h3>Financial Contributions</h3>
+                        <h3 id='financial-contributions'>Financial Contributions</h3>
                         <p>
                             Your donations directly fund our volunteer training programmes, platform development, and community outreach efforts. We operate with full transparency, publishing annual reports detailing how contributions advance our mission. Consider setting up a monthly donation to provide sustained support for our growing community impact.
                         </p>
@@ -59,7 +59,7 @@ function SupportUs() {
                     </div>
 
                     <div className="about-2">
-                        <h3>Corporate partnerships</h3>
+                        <h3 id='corporate-partnerships'>Corporate partnerships</h3>
                         <p> Align your organisation with our mission through sponsorships, employee volunteer programmes, or in-kind donations. Corporate partners receive recognition on our platform and marketing materials while contributing to meaningful community health improvement. We create customised partnership packages that align with your company's values and social responsibility goals.</p>
                         <p>
                             Corporate social responsibility has evolved significantly in the UK business landscape, with 76% of FTSE 100 companies now reporting on social impact initiatives. Unity Care offers businesses a unique opportunity to demonstrate authentic commitment to community wellbeing while engaging employees in meaningful service and enhancing brand reputation.
@@ -116,7 +116,7 @@ function SupportUs() {
 
 
                     <div className="about-3">
-                        <h3>Spread the Word</h3>
+                        <h3 id='spread-the-world'>Spread the Word</h3>
                         <p>
                             Help us reach more patients and volunteers by sharing Unity Care within your networks. Follow us on social media, share our content, and tell your friends, colleagues, and healthcare providers about our services. Word-of-mouth recommendations are invaluable in building trust with both potential volunteers and patients needing support.
                         </p>

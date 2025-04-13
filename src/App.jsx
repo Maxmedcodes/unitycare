@@ -12,10 +12,11 @@ import Volunteer from './Pages/Volunteer'
 import DownloadPage from './Pages/DownloadPage'
 import HamburgerPage from './Pages/HamburgerPage'
 import ErrorPage from './Pages/ErrorPage'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 function App() {
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
       <div className="App">
         <Header />
         <div className="content">
@@ -28,8 +29,10 @@ function App() {
             <Route path="/volunteer" element={<Volunteer />} />
             <Route path='/hamburger' element={<HamburgerPage />} />
             <Route path="/download" element={<DownloadPage />} />
+
           </Routes>
         </div>
+        <ScrollToTop />
         <Footer />
       </div>
 

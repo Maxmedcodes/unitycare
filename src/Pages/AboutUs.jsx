@@ -17,7 +17,7 @@ function AboutUs() {
                     </div>
 
                     <div className="about-1">
-                        <h3>Our Mission</h3>
+                        <h3 id='our-mission'>Our Mission</h3>
                         <p>
                             Unity Care bridges the gap between isolated hospital patients and compassionate volunteers. We believe in the healing power of human connection and work to ensure no one faces illness alone. Our platform creates meaningful interactions that benefit patients' emotional wellbeing while providing fulfilling volunteer opportunities.
                         </p>
@@ -30,7 +30,7 @@ function AboutUs() {
                     </div>
 
                     <div className="about-2">
-                        <h3>Our Story</h3>
+                        <h3 id='our-story'>Our Story</h3>
                         <p> Unity Care began when our founder witnessed the isolation experienced by hospitalized loved ones.
                             Recognizing that many patients lack regular visitors due to distance, work constraints, or limited social circles, he set out to try and
                             build a solution to connect these    individuals with caring community members willing to share their time and compassion.</p>
@@ -61,7 +61,7 @@ function AboutUs() {
 
 
                     <div className="about-3">
-                        <h3> How it Works</h3>
+                        <h3 id='how-it-works'> How it Works</h3>
                         <p> Our intuitive platform matches patients needing companionship with screened volunteers based on compatibility, location, and availability. Healthcare
                             providers, family members, or patients themselves can request visits, while our volunteers choose opportunities that fit their schedules. We facilitate
                             these connections while ensuring safety, confidentiality, and positive experiences for everyone involved.</p>

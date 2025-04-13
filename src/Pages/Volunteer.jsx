@@ -12,12 +12,12 @@ function Volunteer() {
                     <div className="aboutus-para">
                         <h2>Unity Care</h2>
 
-                        <p>We believe in the healing power of human connection</p>
+                        <p>Supporting Healing Together</p>
 
                     </div>
 
                     <div className="about-1">
-                        <h3>Join Our Community</h3>
+                        <h3 id='join-our-community'>Join Our Community</h3>
                         <p>
                             Become part of a network of compassionate individuals making a tangible difference in patients' lives. As a Unity Care volunteer, you'll provide conversation, companionship, and a listening ear to those facing health challenges. Our volunteers come from diverse backgrounds but share a common commitment to kindness and connection.
                         </p>
@@ -51,7 +51,7 @@ function Volunteer() {
                     </div>
 
                     <div className="about-2">
-                        <h3>Training and Support</h3>
+                        <h3 id='training-and-support'>Training and Support</h3>
                         <p> All volunteers receive comprehensive orientation covering privacy protocols, communication skills, and boundaries. Our ongoing support includes regular check-ins, continuing education opportunities, and a community forum to share experiences and best practices. You'll never navigate challenging situations alone—our team is always available to provide guidance.</p>
                         <p>
                             Unity Care's training programme has been developed in consultation with NHS professionals, mental health experts, and experienced healthcare volunteers to ensure it meets the highest standards of patient care and volunteer preparation. Our curriculum has been approved by Healthcare Improvement Scotland and NHS England as meeting best practice guidelines for volunteer integration in clinical settings.
@@ -102,7 +102,7 @@ function Volunteer() {
 
 
                     <div className="about-3">
-                        <h3> Flexible opportunities</h3>
+                        <h3 id='flexible-opportunities'> Flexible opportunities</h3>
                         <p>
                             Whether you can commit to weekly visits or occasional drop-ins, there's a place for you at Unity Care. Set your availability, geographic preferences, and areas of interest to find matches that suit your schedule and strengths. Many volunteers report that the flexibility of our programme allows them to give back meaningfully without overwhelming their existing responsibilities.
                         </p>
@@ -154,6 +154,12 @@ function Volunteer() {
                         <p>
                             The Department for Digital, Culture, Media and Sport recently recognised Unity Care in its 2024 report on "Digital Innovation in Community Service" as an exemplary model for using technology to overcome traditional barriers to volunteering. By reimagining how people can contribute their time and compassion, Unity Care is helping to build a more inclusive, accessible culture of service across the UK.
                         </p>
+                    </div>
+                    <div className="about-4">
+                        <h3 id='support-us'>Support Us</h3>
+                        <p> Help us grow our impact by supporting Unity Care. Your donations fund our volunteer training programs, platform development, and community outreach efforts. Every contribution helps us reach more patients and recruit more volunteers. Corporate partnerships are also welcome—contact us to discuss how your organization can support our mission.</p>
+                        <p>  The success of Unity Care depends on building the right community from the start. If you know others who might be interested in joining our Early Access Programme—colleagues, friends, family members, or healthcare connections—please share this opportunity with them</p>
+
                     </div>
 
 
