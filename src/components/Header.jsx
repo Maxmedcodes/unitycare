@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import { Link, Navigate as naviagte } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { slide as Menu } from 'react-burger-menu'
+import { bubble as Menu } from 'react-burger-menu'
 
 function Header() {
     return (
@@ -37,6 +37,20 @@ function Header() {
                     <span></span>
                     <span></span>
                     <span></span>
+                </div>
+                <div className="hamburger-page">
+                    <div class="hide-scroll">
+                        <Menu right width={'30%'} pageWrapId={"page-wrap"} outerContainerId={"outer-container"} noOverlay >
+                            <ul className="hamburger-list">
+                                <li> <Link to={"/about-us"}>About us</Link></li>
+                                <li> <Link to={"/benefits"}>Benefits</Link></li>
+                                <li> <Link to={"/volunteer"}>Volunteer</Link></li>
+                                <li> <Link to={"/support-us"}>Support Us</Link></li>
+                                <li> <HashLink smooth to={"/#app-download"} className="nav-download">Download</HashLink></li>
+
+                            </ul>
+                        </Menu>
+                    </div>
                 </div>
 
             </div>
