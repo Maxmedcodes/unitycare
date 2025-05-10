@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Colours used */
-random {
-  darkened-blue: #06083c;
+
+  /* darkened-blue: #06083c;
   ligh-blue: #69f1ff;
   dark-blue: #1140c0;
-  white: #f0f3f4
-}
+  white: #f0f3f4 */
+
 
 * {
   margin: 0;
@@ -836,10 +836,10 @@ h2 {
 
 .right-content {
   display: flex;
-  justify-content: space-around;
+  
   align-items: center;
-  width: 50%;
-  margin: 40px 10px 10px;
+  width: 60%;
+  margin: 0px ;
 }
 
 .right-content>h3 {
@@ -852,12 +852,30 @@ h2 {
 }
 
 .right-one {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 0 20px;
+}
+.rightone-links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.rightone-links > a{
+  display: inline-block;
 }
 
+.right-one-header >h3  {
+  width: 100px;
+}
 .right-one>ul {
   list-style: none;
 
+}
+.right-one-header{
+  width: fit-content;
 }
 
 .right-two>ul>li {
@@ -869,7 +887,10 @@ h2 {
 .right-two>ul {
   list-style: none;
 }
-
+.right-two, .right-three, .right-three,.right-four{
+  height: 200px;
+  margin: 0px 20px;
+}
 .right-three>ul>li {
   margin: 10px 0px;
 
@@ -885,14 +906,18 @@ h2 {
 
 .right-four>ul>li {
   margin: 10px 0px;
-
-
 }
 
+.right-two-links, .right-three-links , .right-four-links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 10px;
+}
 .left-content {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
 }
 
 .left-content>.social-links {
@@ -932,7 +957,14 @@ h2 {
   height: 500px;
   width: 100%;
 }
+.footer{
+  list-style: none;
+}
 
+
+.right-one{
+  
+}
 
 /* Media Queries */
 
@@ -1053,6 +1085,7 @@ h2 {
   .footer {
     height: 500px;
   }
+  
 
   .footer-content {
     display: flex;
@@ -1067,6 +1100,7 @@ h2 {
 
   .right-content {
     width: 100%;
+    list-style: none;
   }
 
   .footer-tos {

@@ -39,7 +39,7 @@ function Header() {
                     <span></span>
                 </div>
                 <div className="hamburger-page">
-                    <div class="hide-scroll">
+                    <div className="hide-scroll">
                         <Menu right width={'30%'} pageWrapId={"page-wrap"} outerContainerId={"outer-container"} noOverlay >
                             <ul className="hamburger-list">
                                 <li> <Link to={"/about-us"}>About us</Link></li>

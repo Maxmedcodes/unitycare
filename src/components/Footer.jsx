@@ -15,7 +15,7 @@ function Footer() {
 
                 <div className="left-content">
                     <Logo />
-                    <p>UnityCare is a nonprofit organization that connects volunteers with individuals in need of companionship, especially in hospital settings. UnityCare empowers individuals to extend support by connecting volunteers with those in need of companionship, especially in hospital settings.</p>
+                    <p>UnityCare is an app that connects volunteers with individuals in need of companionship, especially in hospital settings. UnityCare empowers individuals to extend support by connecting volunteers with those in need of companionship, especially in hospital settings.</p>
 
                     <div className="social-links">
                         <FacebookIcon />
@@ -29,50 +29,49 @@ function Footer() {
 
                 <div className="right-content">
                     <div className="right-one">
-                        <h3> <Link to={"/about-us"}> About Us </Link> </h3>
-                        <ul>
-                            <li> <HashLink smooth to={"/about-us/#our-mission"}>     Our Mission  </HashLink> </li>
-                            <li> <HashLink to={"/about-us/#our-story"}>     Our Story   </HashLink> </li>
-                            <li>  <HashLink to={"/about-us/#how-it-works"}>     How it works    </HashLink> </li>
-
-
-
-
-                        </ul>
+                        <div className="right-one-header">
+                        <h3> <Link to={"/about-us"}> About Us</Link> </h3>
+                        </div>
+                        
+                        <div className="rightone-links">
+                                <HashLink smooth to={"/about-us/#our-mission"}>Our Mission</HashLink> 
+                                <HashLink to={"/about-us/#our-story"}> Our Story</HashLink> 
+                                <HashLink to={"/about-us/#how-it-works"}>How it works</HashLink>
+                        </div>
+                        
                     </div>
                     <div className="right-two">
                         <h3> <Link to={"/benefits"}>  Benefits </Link> </h3>
-                        <ul>
-
-                            <li> <HashLink to={"/benefits/#for-patients"}>     For Patients    </HashLink>  </li>
-                            <li>  <HashLink to={"/benefits/#for-families"}>   <li>  For Families</li></HashLink> </li>
-                            <li>  <HashLink to={"/benefits/#for-healthcare"}>   <li>  For Healthcare Organisations</li></HashLink> </li>
-
-
-
-
-                        </ul>
+                        
+                            <div className="right-two-links">
+                                <HashLink to={"/benefits/#for-patients"}>     For Patients    </HashLink>  
+                              <HashLink to={"/benefits/#for-families"}>   <li>  For Families</li></HashLink> 
+                              <HashLink to={"/benefits/#for-healthcare"}>   <li>  For Healthcare Organisations</li></HashLink> 
+                            </div>
+                       
                     </div>
                     <div className="right-three">
                         <Link to={"/volunteer"}><h3>  Volunteer </h3> </Link>
-                        <ul>
-                            <li><HashLink to={"/volunteer/#join-our-community"}>  Join Our Community </HashLink></li>
-                            <li> <HashLink to={"/volunteer/#flexible-opportunities"}> Flexible Opportunities </HashLink>  </li>
-                            <li>  <HashLink to={"/volunteer/#support-us"}>  Support Us </HashLink></li>
+                        
+                            <div className="right-three-links">
+                            <HashLink to={"/volunteer/#join-our-community"}>  Join Our Community </HashLink>
+                             <HashLink to={"/volunteer/#flexible-opportunities"}> Flexible Opportunities </HashLink>  
+                              <HashLink to={"/volunteer/#support-us"}>  Support Us </HashLink>
+                            </div>
+                            
 
-                        </ul>
+                        
                     </div>
                     <div className="right-four">
                         <h3> <Link to={"/support-us"}> Support Us  </Link></h3>
-                        <ul>
-                            <li>  <HashLink to={"/support-us/#Financial-contributions"}>     Financial Contributions </HashLink> </li>
-                            <li>  <HashLink to={"/support-us/#Corporate-partnerships"}>    Corporate Partnerships  </HashLink></li>
-                            <li> <HashLink to={"/support-us/#Spread-the-word"}>   <li>  Spread the Word</li></HashLink>  </li>
+                        <div className="right-four-links">
+                              <HashLink to={"/support-us/#Financial-contributions"}>     Financial Contributions </HashLink> 
+                              <HashLink to={"/support-us/#Corporate-partnerships"}>    Corporate Partnerships  </HashLink>
+                             <HashLink to={"/support-us/#Spread-the-word"}>   <li>  Spread the Word</li></HashLink>  
 
 
 
-
-                        </ul>
+                        </div>
                     </div>
                 </div>
 
