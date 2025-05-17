@@ -382,6 +382,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   align-items: center;
 }
 
+.download-links > a{
+  cursor: none;
+}
+.download-links > button:hover {
+  cursor: pononeinter ;
+}
+
 /* Care Section */
 .app-benefits {
   width: auto;
@@ -818,7 +825,10 @@ h2 {
   height: fit-content;
   background-color: #FBE4D6;
 }
-
+/* App Incoming Page */
+.AppIncoming{
+  height: 500px;
+}
 /* Footer section */
 
 .footer {

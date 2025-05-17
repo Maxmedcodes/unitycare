@@ -41,13 +41,13 @@ function Body_About() {
                     </div> */}
 
                     <div className="about-us-image1">
-                        <img src="src\assets\images\image1.jpg" alt="" height={"500px"} width={"65%"} />
+                        <img src="src\assets\images\image1.jpg" alt="" height={"400px"} width={"65%"} />
                     </div>
                     <div className="about-us-image2">
-                        <img src="src\assets\images\image9.jpg" alt="" height={"500px"} width={"65%"} />
+                        <img src="src\assets\images\image9.jpg" alt="" height={"400px"} width={"65%"} />
                     </div>
                     <div className="about-us-image3">
-                        <img src="src\assets\images\image7.jpg" alt="" height={"500px"} width={"65%"} />
+                        <img src="src\assets\images\image7.jpg" alt="" height={"400px"} width={"65%"} />
                     </div>
 
 
