@@ -375,6 +375,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px 5px;
 }
 
 .download-links {
@@ -386,7 +387,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   cursor: none;
 }
 .download-links > button:hover {
-  cursor: pononeinter ;
+  cursor: none ;
 }
 
 /* Care Section */
@@ -828,6 +829,27 @@ h2 {
 /* App Incoming Page */
 .AppIncoming{
   height: 500px;
+}
+
+.Incoming{
+  display: flex;
+  flex-direction: column;
+
+}
+.AppIncoming{
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.AppIncoming > h2{
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.incoming-lottie{
+  display: flex;
+  justify-content:center ;
+  height: 450px;
+
 }
 /* Footer section */
 
